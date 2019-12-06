@@ -8,9 +8,8 @@ import 'react-miniui/dist/miniui.css';
 // if use react-miniui Modal, import ActiveModal
 import {ActiveModal} from 'react-miniui';
 
-import './scss/style.scss';
+import '~/scss/style.scss';
 
-import Header from '~/container/Header';
 import Main from '~/container/Main';
 import Router from '~/routes';
 
@@ -18,7 +17,6 @@ class App extends Component {
   render() {
     return(
       <React.Fragment>
-        <Header />
         <Router />
       </React.Fragment>
     )

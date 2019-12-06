@@ -57,6 +57,7 @@
     "normalize-scss": "^7.0.1"
   },
   "dependencies": {
+    "d3": "^5.14.2",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "react-miniui": "^1.3.1",
